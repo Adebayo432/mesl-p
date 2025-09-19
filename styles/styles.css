@@ -1,0 +1,342 @@
+body{
+    font-family: sans-serif, "";
+    padding-bottom: 500px;
+}
+.navbar{
+    background-color:rgb(247, 198, 107);
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-inline: 10px;
+}
+.navbar img{
+    width: 130px;
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+    gap: 15px;
+    align-items: center;
+}
+.navbar  ul li a{
+    text-decoration: none;
+    gap: 10px;
+    color: white;
+    font-size: bold; 
+}
+.navbar button{
+    color: rgb(246, 181, 60);
+    padding: 6px 8px ;
+    border-radius: 9px;
+    border: 1px solid rgb(246, 181, 60);
+    cursor: pointer;
+    transition: 0.4s;
+}
+.navbar  button:hover{
+    color: white;
+    background-color: rgb(43, 43, 43);
+    padding: 9px 12px;
+}
+.navbar div{
+    color: white;
+    width: 85%;
+}
+.navbar h1{
+    font-size: 3rem;
+}
+.navbar h3{
+    font-size: 1rem;
+}
+.intro-two{
+    display: flex;
+    gap: 10px;
+    margin-top: 40px;
+}
+.intro-two div{
+    width: 33%;
+}
+.abb{
+    background-color:rgb(246, 181, 60);
+    border-radius: 25px;
+    padding: 10px;
+    text-align: center;
+    transition: 0.4s;
+}
+.abb:hover{
+    background-color:rgb(249, 210, 136) ;
+}
+.abb h1{
+    font-size: 2.9rem;
+}
+.abb p{
+    line-height: 32px;
+}
+.abb button{
+    color: rgb(246, 181, 60);
+    padding: 6px 8px ;
+    border-radius: 9px;
+    border: 1px solid rgb(246, 181, 60);
+    background-color: white;
+    font-size: bold;
+    cursor: pointer; 
+    transition: 0.4s; 
+}
+.abb button:hover{
+    color: white;
+    background-color: rgb(246, 181, 60);
+    padding: 9px 12px ;
+}
+.intro-two img{
+    width: 95%;
+}
+.intro-three{
+    background-color: rgb(249, 210, 136);
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+.head{
+    width: 100%;
+    text-align: center;
+}
+.intro-three h1{
+    font-size: 3rem;
+}
+.intro-three div{
+    text-align: center;
+    width: 33%;
+    transition: 0.4s;
+}
+.intro-three div:hover{
+    background-color:rgb(246, 181, 60);
+    border: 1px solid white;
+}
+.intro-three img{
+    width: 100%;
+}
+.purpose{
+    width: 100%;
+    background-color: whitesmoke;
+    padding: 30px 0px;
+    margin-block: 30px;
+}
+.purpose h2{
+    text-align: center;
+    padding-bottom: 50px;
+}
+.purpose p{
+    padding-left: 10%;
+    font-size: 27px;
+}
+.purpose p span{
+    color: grey;
+}
+.our-p-container{
+    display: flex;
+    
+}
+.our-p-container div{
+    background-color: white;
+    width: 33.5%;
+}
+.our-p{
+    padding-top: 15%;
+}
+.our-p h1{
+    font-size: 3rem;
+}
+.our-p h1 span {
+    color: rgb(246, 181, 60) ;
+}
+.our-p-list  .div-one{
+    background-color: whitesmoke;
+    width: 70%;
+    padding: 20px ;
+    margin-top: 20px;
+    border-radius: 25px;
+    transition: 0.4s;
+
+}
+.our-p-list  .div-one:hover{
+    background-color:rgb(245, 212, 151) ;
+}
+
+.our-p-list  .div-two{
+    background-color: whitesmoke;
+    width: 70%;
+    padding: 20px ;
+    margin-top: 20px;
+    border-radius: 25px;
+    transition: 0.4s;
+    
+}
+.our-p-list  .div-two:hover{
+    background-color: rgb(134, 134, 247)  ;
+}
+.our-p-list-two  .div-one{
+    width: 70%;
+    padding: 20px ;
+    background-color: whitesmoke;
+    margin-top: 40px;
+    border-radius: 25px;
+    transition: 0.4s;
+}
+.our-p-list-two  .div-one:hover{
+    background-color:rgb(245, 212, 151) ;
+}
+.our-p-list-two  .div-two{
+    width: 70%;
+    padding: 20px ;
+    background-color: whitesmoke;
+    margin-top: 40px;
+    border-radius: 25px;
+    transition: 0.4s;
+}
+.our-p-list-two  .div-two:hover{
+    background-color: rgb(134, 134, 247)  ;
+}
+.hh{
+    font-size: 40px;
+    color:  rgb(246, 181, 60) ;
+}
+.hh span{
+    font-weight: bold;
+}
+.n-s{
+    background-color: rgb(250, 220, 166) ;
+}
+.n-s:hover{
+    background-color: rgb(239, 225, 199);
+}
+.newsletter-container{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.sub h1{
+    color:rgb(246, 181, 60) ;
+    margin: 0px;
+    padding: 30px 0px 0px 0px;
+}
+.enter p{
+    color: rgb(90, 88, 88);
+    margin: 10px 0px 40px 0px;
+}
+.det{
+    padding: 0px 25px 25px 25px;
+    display: flex;
+    gap: 15px;
+}
+.det input{
+    width: 45%;
+    padding: 6px;
+    border: none;
+    border-radius: 3px;
+}
+.det button{
+    color:rgb(246, 181, 60)  ;
+    border: none;
+    border-radius: 3px;
+    transition: 0.4s;
+}
+.det button:hover{
+    background-color: rgb(246, 181, 60) ;
+    color: white;
+}
+.footer{
+    background-color: rgb(246, 181, 60);
+    margin-top: 100px;
+    width: 100%;
+    text-align: center;
+    padding: 25px;
+    color: white;
+    font-size: bold;
+    
+}   
+.wrapper{
+    max-width: fit-content;
+}
+@media (width < 600px){
+    .intro-two{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 40px;
+    }
+    .intro-two div{
+    width: 100%;
+    }
+    .navbar ul{
+    display: flex;
+    list-style: none;
+    gap: 10px;
+    align-items: center;
+    }
+    .intro-three{
+    background-color: rgb(249, 210, 136);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    }
+    .intro-three div{
+    text-align: center;
+    width: 100%;
+    }
+   
+    .our-p-container div{
+    background-color: white;
+    width: 100%;
+    align-items: center;
+    }
+    .our-p-container{
+    display: flex;
+    flex-direction: column;
+    }
+    .our-p-list-two  .div-one{
+    width: 100%;
+    padding: 10px ;
+    background-color: whitesmoke;
+    margin-top: 20px;
+    border-radius: 15px;
+    transition: 0.4s;
+    }
+    .our-p-list  .div-one{
+    background-color: whitesmoke;
+    width: 100%;
+    padding: 10px ;
+    margin-top: 10px;
+    border-radius: 15px;
+    transition: 0.4s;
+
+}
+.our-p-list  .div-one:hover{
+    background-color: rgb(134, 134, 247);
+}
+
+.our-p-list  .div-two{
+    background-color: whitesmoke;
+    width: 100%;
+    padding: 10px ;
+    margin-top: 10px;
+    border-radius: 15px;
+    transition: 0.4s;
+    
+}
+.our-p-list  .div-two:hover{
+    background-color:  rgb(245, 212, 151)  ;
+}
+.our-p-list-two  .div-two{
+    width: 100%;
+    padding: 10px ;
+    background-color: whitesmoke;
+    margin-top: 20px;
+    border-radius: 15px;
+    transition: 0.4s;
+    }
+ 
+}
