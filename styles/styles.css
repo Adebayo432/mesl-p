@@ -269,6 +269,10 @@ body{
     font-size: bold;
     
 }   
+.footer a{
+    text-decoration: none;
+    color:blue;
+}
 .wrapper{
     width: 100%;
     max-width: 1200px;
