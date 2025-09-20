@@ -1,13 +1,21 @@
 body{
     font-family: sans-serif, "";
+     background-color: rgb(248, 183, 63);
 }
 .navbar{
-    background-color:rgb(247, 198, 107);
+    background-color:rgb(248, 183, 63);
     display: flex;
     align-items: center;
     flex-wrap: wrap;
     justify-content: space-between;
     padding-inline: 10px;
+    color: black;
+    margin: 0px;
+   
+    
+}
+.navvv{
+    background-color: rgb(248, 183, 63);
 }
 .navbar img{
     width: 130px;
@@ -18,13 +26,17 @@ body{
     gap: 15px;
     align-items: center;
 }
+.ulll{
+    position: sticky;
+    top: 0; 
+}
 .navbar  ul li a{
     text-decoration: none;
     gap: 10px;
     color: white;
     font-size: bold; 
 }
-.navbar button{
+.navbar button, .navvv button{
     color: rgb(246, 181, 60);
     padding: 6px 8px ;
     border-radius: 9px;
@@ -32,7 +44,8 @@ body{
     cursor: pointer;
     transition: 0.4s;
 }
-.navbar  button:hover{
+.navbar  button:hover,
+.navvv button:hover{
     color: white;
     background-color: rgb(43, 43, 43);
     padding: 9px 12px;
@@ -247,7 +260,7 @@ body{
     color: white;
 }
 .footer{
-    background-color: rgb(246, 181, 60);
+    background-color:rgb(61, 60, 60);
     margin-top: 100px;
     width: 100%;
     text-align: center;
@@ -257,7 +270,8 @@ body{
     
 }   
 .wrapper{
-    max-width: fit-content;
+    width: 100%;
+    max-width: 1200px;
 }
 @media (width < 600px){
     .intro-two{
